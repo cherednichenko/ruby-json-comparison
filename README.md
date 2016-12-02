@@ -1,5 +1,6 @@
 # The Test assignment
 
+```
 1). Provide 2 http endpoints that accepts JSON base64 encoded binary data on both endpoints
     - <host>/v1/diff/<ID>/left and <host>/v1/diff/<ID>/right
 2). The provided data needs to be diff-ed and the results shall be available on a third end point
@@ -10,6 +11,7 @@
     - If of same size provide insight in where the diffs are, actual diffs are not needed.
       - So mainly offsets + length in the data
 4). Make assumptions in the implementation explicit, choices are good but need to be communicated
+```
 
 Explanations of the project are below.
 
